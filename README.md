@@ -42,7 +42,7 @@ Here are all the buttons settings:
 The first group of values (0-5) describes the number and type of buttons displayed in the dialog box; the second group (16, 32, 48, 64) describes the icon style; the third group (0, 256, 512) determines which button is the default; and the fourth group (0, 4096) determines the modality of the message box. When combining numbers to create a final value for the _buttons_ argument, use only one number from each group.  
 The binary version of cmsgbox can be integrated in any program, just call it through the "system" function of any language.  
 ## Version of the function call
-Under the "function" folder of this warehouse, we can find the msgbox.cpp file, but this is called as a library, we can view "demo.cpp", which provides a simple example, and this function is also very simple to use.  
+Under the "function" folder of this repository, we can find the msgbox.cpp file, but this is called as a library, we can view "demo.cpp", which provides a simple example, and this function is also very simple to use.  
 Here is a Hello World:
 ```
 #include<iostream>
@@ -53,3 +53,4 @@ int main()
   msgbox("Hello World", 0, "cmsgbox Title");
 }
 ```
+You can call it from anywhere as long as you ``#include "msgbox.cpp``.
