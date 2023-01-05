@@ -53,4 +53,5 @@ int main()
   msgbox("Hello World", 0, "cmsgbox Title");
 }
 ```
-You can call it from anywhere as long as you ``#include "msgbox.cpp``.
+You can call it from anywhere as long as you ``#include "msgbox.cpp"``.  
+Similarly, you can follow the above table to set the "0" in the middle of the function to any window style and buttons settings number, you only need to replace the middle 0 with the number you want, also for example "64" can be Display Information Message icon , you only need to change the code to ``msgbox("Hello World", 64, "cmsgbox Title");``
